@@ -26,6 +26,27 @@ To check it works,
 php hello.php
 ~~~~
 
+To check the tests,
+~~~~
+cd 3
+composer install
+phpunit
+~~~~
+
+You should see something like this,
+~~~~
+PHPUnit 8.1.4 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 7.3.5
+Configuration: /home/serveruser/data/3/phpunit.xml
+
+.                                                                   1 / 1 (100%)
+
+Time: 106 ms, Memory: 10.00 MB
+
+OK (1 test, 4 assertions)
+~~~~
+
 Exit the container,
 ~~~~
 exit
